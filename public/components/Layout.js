@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import React from 'react';
 
 export default function Layout({ title, children }) {
@@ -10,8 +11,8 @@ export default function Layout({ title, children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div>
-        <header className='flex'>header</header>
+      <div className='flex min-h-screen flex-col justify-between'>
+        <header>header</header>
         <main>{children}</main>
         <footer>footer</footer>
       </div>

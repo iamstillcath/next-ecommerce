@@ -1,11 +1,11 @@
-import Layout from '@/public/components/layout'
-import Head from 'next/head'
+import Layout from '@/public/components/Layout';
+
 
 export default function Home() {
   return (
     <>
-     <Layout>
-      
+     <Layout title='HOMEpage'>
+     Home page 
      </Layout>
     </>
   )
